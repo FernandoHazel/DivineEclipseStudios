@@ -80,3 +80,12 @@ body{
     border-color:white;
     font-size: 30px;
 }
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.option :hover{
+  background-color: white;
+  color: black;
+}
