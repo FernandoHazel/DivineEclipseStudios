@@ -1,0 +1,47 @@
+# Ignorar archivos generados automáticamente
+*.min.css
+*.min.js
+
+# Ignorar carpetas generadas
+/node_modules
+/dist
+
+# Ignorar archivos de configuración locales
+.env
+
+# Ignorar archivos de caché y respaldo
+*.log
+npm-debug.log*
+
+# Ignorar archivos temporales
+*.swp
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de respaldo de Visual Studio Code
+.vscode/
+
+# Carpeta de dependencias de TypeScript
+typings/
+
+# Archivos de registro
+*.log
+
+# Directorio de distribución (generado por herramientas de compilación)
+/dist/
+
+# Directorio de almacenamiento de paquetes (generado por herramientas de gestión de paquetes)
+/packages/
+
+# Directorio de dependencias específicas de sistema operativo
+/vendor/
+
+# Directorio de archivos temporales
+/temp/
+
+# Archivos de registro de errores
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
