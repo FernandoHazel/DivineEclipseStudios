@@ -144,10 +144,31 @@ footer{
   height: 200px;
 }
 
-@media (max-width: 700px)  
+@media (max-width: 800px)  
 {
   #SelectPanel{
     width: 360px;
     font-size: 40px;
+  }
+}
+
+@media (max-width: 600px)  
+{
+  #Titles h1{
+
+    font-size: 30px;
+  }
+  #Titles h2{
+    font-size: 30px;
+
+  }
+  #description{
+
+    font-size: 25px;
+  }
+
+  #SelectPanel{
+      width: 250px;
+      font-size: 30px;
   }
 }
