@@ -1,0 +1,22 @@
+#mc_embed_signup{
+    padding: 20px;
+    padding-left: 10%;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+#mce-EMAIL{
+    margin-left: 30px;
+    height: 30px;
+}
+
+#mc-embedded-subscribe{
+    font-family: PixelOperator;
+    height: 50px;
+    width: 80px;
+}
+
+.mc-field-group{
+    margin: 10px;
+    margin-left: 0px;
+}

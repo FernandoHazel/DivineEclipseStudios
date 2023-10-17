@@ -1,24 +1,9 @@
-# Ignorar archivos generados automáticamente
-*.min.css
-*.min.js
-
-# Ignorar carpetas generadas
-/node_modules
-/dist
-
-# Ignorar archivos de configuración locales
-.env
-
-# Ignorar archivos de caché y respaldo
-*.log
-npm-debug.log*
-
-# Ignorar archivos temporales
-*.swp
-
-# Ignorar archivos de sistema
+# Archivos y directorios generados por el sistema operativo
 .DS_Store
 Thumbs.db
+
+# Carpeta node_modules generada por npm
+node_modules/
 
 # Archivos de respaldo de Visual Studio Code
 .vscode/
@@ -29,8 +14,15 @@ typings/
 # Archivos de registro
 *.log
 
+# Archivos compilados
+*.min.js
+*.min.css
+
 # Directorio de distribución (generado por herramientas de compilación)
 /dist/
+
+# Archivos de configuración de ambiente local
+.env
 
 # Directorio de almacenamiento de paquetes (generado por herramientas de gestión de paquetes)
 /packages/
