@@ -5,28 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="Styles/navbar.css">
     <link rel="stylesheet" href="Styles/mailingList.css">
     <link rel="icon" href="Resources/img/Monigote.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
     <title>Divine Eclipse Studios</title>
 </head>
 <body>
+    <!--Navbar-->
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li class='logo'><a href='#'><img src='Resources/img/Monigote.png'/></a></li>
+                    <li><a href="#HOME">HOME</a></li>
+                    <li><a href="#ABOUTUS">ABOUT US</a></li>
+                    <li><a href="#CONTACT">CONTACT</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+    </header>
+
     <!--This is the description of the main page-->
-    <article class="MainArticle">
+    <article class="MainArticle" id="HOME">
         <div class="Titles">
-            <h1 >DIVINE ECLIPSE LABS: </h1>
-            <h2 >DEMONITION</h2>
+            <h1>DEMONITION</h1>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/ip55mE3WIC4?si=Y9RenISfTZlOtM2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+    </article>
+
+    <!--This is the selection panel-->
+    <div style="display: flex; justify-content: center;">
+        <article id="SelectPanel">
+            <div class="option"><a href="https://drive.google.com/drive/folders/1KEiHmP7JMFlSF94yy_6hvO5r2eB3t7S9?usp=sharing">
+                PLAYTEST</a>
+            </div>
+            
+            <div class="option" ><a href="" style="color: gray;">
+                DOWNLOAD PRESSKIT</a></div>
+            <div class="option"><a href="" style="color: gray;">
+                ADD ME ON STEAM</a></div>
+            
+        </article>
+    </div>
+
+    <article class="MainArticle">
+        <div class="Titles" id="ABOUTUS">
+            <h1 >ABOUT US</h1>
         </div>
         <div class="description">
-            <h2>A CULT OF EDGY HUMANS, INTENDING TO SAVE THE WORLD FROM A 
-                CATASTROPHIC EVENT, ACCIDENTALLY INVOKE A PLANET EXTERMINATOR:
-            <h1>DEMON LORD!</h1>
-            <h2> HE LOVES AND NEEDS TO DEMOLISH ANYTHING, ANYTIME.</h2>
+            <h2>WE ARE A PASSIONATE INDE GAME MEXICAN STUDIO ABOUT TO RELEASE OUR FIRST GAME.</h2>
+        </div><br>
+    </article>
+
+    <article class="team">
+        <div class="team-member">
+            <img src="Resources/img/Daniel.jpeg" alt="team-member">
+            <h1>Daniel</h1>
+            <h2 style="color: gray;">Programmer</h2>
+        </div>
+        <div class="team-member">
+            <img src="Resources/img/Guillermo.jpeg" alt="team-member">
+            <h1>Guillermo</h1>
+            <h2 style="color: gray;">Audio Designer</h2>
+        </div>
+        <div class="team-member">
+            <img src="Resources/img/JoseRoberto.jpg" alt="team-member">
+            <h1>José Roberto</h1>
+            <h2 style="color: gray;">3D Artist</h2>
+        </div>
+        <div class="team-member">
+            <img src="Resources/img/Rashel.jpeg" alt="team-member">
+            <h1>Rashel Benavides</h1>
+            <h2 style="color: gray;">Producer</h2>
+        </div>
+        <div class="team-member">
+            <img src="Resources/img/Yo.jpg" alt="team-member">
+            <h1>Fernando Ascencio</h1>
+            <h2 style="color: gray;">Marketing</h2>
+        </div>
+        <div class="team-member">
+            <img src="Resources/img/Kevin_3DModeler.jpg" alt="team-member">
+            <h1>Kevin Alatriste</h1>
+            <h2 style="color: gray;">Alatriste</h2>
         </div>
     </article>
 
-    <!--Mailing list-->
-    <!---->
+    <article class="MainArticle">
+        <div class="Titles" id="CONTACT">
+            <h1 >CONTACT</h1>
+        </div>
+        <div style="display: flex; justify-content: center; ">
+            <textarea name="" id="" cols="30" rows="10" style="width: 70vw; height: 20px; justify-content: center;"></textarea>
+        </div><br>
+        <div style="display: flex; justify-content: center;">
+            <textarea name="" id="" cols="30" rows="10" style="width: 70vw; height: 100px; justify-content: center;"></textarea>
+        </div>
+        
+    </article>
+
+    <!--This is the footer with the icons-->
+    <footer>
+
+                    <!--Mailing list-->
+    <!--
   <div id="mc_embed_signup">
       <form action="https://app.us12.list-manage.com/subscribe/post?u=942bbfdba2f76ac0e6e8b1c0d&amp;id=95188011c2&amp;f_id=003d40e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
           <div id="mc_embed_signup_scroll"><h2>Subscribe to our mailing list</h2>
@@ -38,12 +127,12 @@
                 <div class="clear foot">
                     <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
                     <p style="margin: 0px auto;">
-                        <!--
+                        <!----
                         <a href="http://eepurl.com/iB1wNI" title="Mailchimp - email marketing made easy and fun">
                             <span style="display: inline-block; background-color: transparent; border-radius: 4px;">
                                 <img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span>
                         </a>
-                        -->
+                        <!----
                     </p>
                 </div>
 
@@ -61,71 +150,7 @@
     </form>
   </div>
   <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
-  <!---->
-
-    <!--This is the selection panel-->
-    <article id="SelectPanel">
-        <div class="option"><a href="https://drive.google.com/drive/folders/1KEiHmP7JMFlSF94yy_6hvO5r2eB3t7S9?usp=sharing">
-            PLAYTEST</a>
-        </div>
-        <!--
-        <div class="option"><a href="">
-            DOWNLOAD PRESSKIT (in procces)</a></div>
-        <div class="option"><a href="">
-            ADD ME ON STEAM (in procces)</a></div>
-        -->
-    </article>
-
-    <article class="imageContainer">
-        <div id="monigote">
-            <img src="Resources/img/Monigote.png"></img>
-        </div>
-    </article>
-
-    <article class="MainArticle">
-        <div class="Titles">
-            <h1 >TEAM</h1>
-        </div>
-        <div class="description">
-            <h2>WE ARE A PASSIONATE INDE GAME MEXICAN STUDIO ABOUT TO RELEASE OUR FIRST GAME.</h2>
-        </div><br>
-    </article>
-
-    <article class="team">
-        <div class="team-member">
-            <img src="Resources/img/Daniel.jpeg" alt="team-member">
-            <h1>Daniel</h1>
-            <h2>Programmer</h2>
-        </div>
-        <div class="team-member">
-            <img src="Resources/img/Guillermo.jpeg" alt="team-member">
-            <h1>Guillermo</h1>
-            <h2>Audio Designer</h2>
-        </div>
-        <div class="team-member">
-            <img src="Resources/img/JoseRoberto.jpg" alt="team-member">
-            <h1>José Roberto</h1>
-            <h2>3D Artist</h2>
-        </div>
-        <div class="team-member">
-            <img src="Resources/img/Rashel.jpeg" alt="team-member">
-            <h1>Rashel Benavides</h1>
-            <h2>Producer</h2>
-        </div>
-        <div class="team-member">
-            <img src="Resources/img/Yo.jpg" alt="team-member">
-            <h1>Fernando Ascencio</h1>
-            <h2>Marketing</h2>
-        </div>
-        <div class="team-member">
-            <img src="Resources/img/Kevin_3DModeler.jpg" alt="team-member">
-            <h1>Kevin Alatriste</h1>
-            <h2>Alatriste</h2>
-        </div>
-    </article>
-
-    <!--This is the footer with the icons-->
-    <footer>
+  -->
         <article class="iconContainer">
             <div class="icon">
                 <a href='https://twitter.com/divine_stu39439'>

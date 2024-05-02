@@ -52,6 +52,16 @@ table {
 	border-spacing: 0;
 }
 
+.video{
+  text-align: center;
+  margin-top: 15px;
+}
+iframe{
+  width: 60vw;
+  height: 40vw;
+  border-radius: 5%;
+}
+
 /*FONT*/
 @font-face {
   font-family: 'PixelOperator-Bold';
@@ -65,16 +75,16 @@ table {
 /*GLOBAL STYLES*/
 
 .MainArticle {
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 20%;
+    margin-top: 100px;
 }
 .Titles{
   display: flex;
+  justify-content: center;
 }
 .Titles h1{
   font-weight: bold;
   font-size: 60px;
+  
 }
 .Titles h2{
   font-size: 60px;
@@ -82,7 +92,10 @@ table {
 }
 .description{
   margin-top: 30px;
+  padding: 100px;
   font-size: 50px;
+  display: flex;
+  justify-content: center;
 }
 .description h1{
   font-weight: bold;
@@ -90,7 +103,6 @@ table {
 }
 #SelectPanel{
     margin-top: 10px;
-    margin-left: 15vw;
     width: 500px;
     border-width: 1px;
     border-style: solid;
@@ -110,10 +122,11 @@ a{
 .iconContainer{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   width: 50%;
   position: absolute;
   left: 25%;
+  
 }
 
 .icon{
@@ -152,7 +165,8 @@ footer{
 .team {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
 
   padding-top: 2%;
   padding-left: 10%;
@@ -169,6 +183,7 @@ footer{
 .team-member img {
   width: 70px;
   height: 70px;
+  border-radius: 10%;
 }
 
 @media (max-width: 800px)  
