@@ -68,6 +68,14 @@ iframe{
   width: 50vw;
 }
 
+input {
+  margin-bottom: 10px;
+}
+
+.ContactLabel {
+  font-size: 24px;
+}
+
 /*FONT*/
 @font-face {
   font-family: 'PixelOperator-Bold';
