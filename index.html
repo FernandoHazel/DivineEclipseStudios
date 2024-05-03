@@ -102,12 +102,36 @@
         <div class="Titles" id="CONTACT">
             <h1 >CONTACT</h1>
         </div>
-        <div style="display: flex; justify-content: center; ">
-            <textarea name="" id="" cols="30" rows="10" style="width: 70vw; height: 20px; justify-content: center;"></textarea>
-        </div><br>
+
         <div style="display: flex; justify-content: center;">
-            <textarea name="" id="" cols="30" rows="10" style="width: 70vw; height: 100px; justify-content: center;"></textarea>
+            <form id="ContactForm"
+                action="https://formspree.io/f/mqkrndjw"
+                method="POST"
+                >
+                <label>
+                    Your name:
+                </label>
+                <input type="text" name="Name">
+                <label>
+                    Your email:
+                </label>
+                <input type="email" name="Email">
+                <label>
+                    Subject:
+                </label>
+                <input type="text" name="Subject">
+                <label>
+                    Your message:
+                </label>
+                <textarea name="message" style="height: 100px;"></textarea>
+                <!-- your other form fields go here -->
+                <br>
+                <button type="submit">Send</button>
+            </form>
         </div>
+
+
+        
         
     </article>
 
